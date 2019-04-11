@@ -21,4 +21,5 @@ def printer
   batch_badge_creator(name_list) do |badge|
     puts badge
   end
+  
 end
