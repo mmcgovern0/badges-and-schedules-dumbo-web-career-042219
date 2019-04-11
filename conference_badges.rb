@@ -1,5 +1,5 @@
 # Write your code here.
-name_list = ["Pam", "Jim", "Michael", "Dwight", "Angela", "Ryan", "Creed"]
+atendees = ["Pam", "Jim", "Michael", "Dwight", "Angela", "Ryan", "Creed"]
 
 def badge_maker(name)
   "Hello, my name is #{name}."
@@ -11,7 +11,7 @@ def batch_badge_creator(name_list)
   end
 end
 
-def assign_rooms(name_list)
+def assign_rooms(atendees)
   name_list.each_with_index.map do |name, index|
     "Hello #{name}! You'll be assigned to room #{index + 1}!"
   end
