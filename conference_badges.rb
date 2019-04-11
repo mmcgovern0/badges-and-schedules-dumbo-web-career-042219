@@ -10,4 +10,4 @@ def batch_badge_creator(name_list)
 end
 
 def assign_rooms(name_list)
-  name_list.each_index.map 
+  name_list.each_index.map do |name
