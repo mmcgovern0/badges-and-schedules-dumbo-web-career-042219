@@ -5,7 +5,7 @@ end
 
 def batch_badge_creator(name_list)
   name_list.map do |name| 
-    "Hello, my name is #{name}"
+    "Hello, my name is #{name}."
   end
 end
   
