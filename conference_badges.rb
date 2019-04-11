@@ -15,4 +15,4 @@ def assign_rooms(name_list)
   name_list.map do |name|
     puts "Hello, #{name}! You'll be assigned to room #{rooms[i]}"
   end
-  
+end
