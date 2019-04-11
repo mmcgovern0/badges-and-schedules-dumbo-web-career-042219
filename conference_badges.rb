@@ -8,4 +8,11 @@ def batch_badge_creator(name_list)
     "Hello, my name is #{name}."
   end
 end
+
+def assign_rooms(name_list)
+  rooms == 1..7
+  i += 1
+  name_list.map do |name|
+    puts "Hello, #{name}! You'll be assigned to room #{rooms[i]}"
+  end
   
